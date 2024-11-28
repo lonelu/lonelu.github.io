@@ -1,20 +1,20 @@
 ---
 ---
 
-# Lab Website Template
+# Lab Website
 
 Here is the Lu Lab. 
 
 {%
   include button.html
   type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
+  link="https://github.com/lonelu"
 %}
 {%
   include button.html
   type="github"
   text="On GitHub"
-  link="greenelab/lab-website-template"
+  link="Lu Lab/lab-website"
 %}
 
 {% include section.html %}

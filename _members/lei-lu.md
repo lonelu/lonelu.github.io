@@ -1,14 +1,12 @@
 ---
-name: Jane Smith
+name: Lei Lu
 image: images/photo.jpg
 role: pi
-affiliation: University of Colorado
-aliases:
-  - J. Smith
-  - J Smith
+affiliation: Tsinghua University 
+
 links:
-  home-page: https://janesmith.com
-  orcid: 0000-0001-8713-9213
+  home-page: https://github.com/lonelu
+  orcid: [0000-0001-8713-9213](https://orcid.org/0000-0001-7097-1505)
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

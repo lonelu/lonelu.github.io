@@ -1,6 +1,6 @@
 # site properties and page defaults
-title: Lab Website Template
-subtitle: by the Greene Lab
+title: Lab Website
+subtitle: by the Lu Lab
 description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
 header: images/background.jpg
 footer: images/background.jpg
@@ -8,12 +8,11 @@ proofer: false
 
 # site social media and other links
 links:
-  email: contact@your-lab.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: your-lab
-  twitter: YourLabHandle
-  youtube: YourLabChannel
+  email: lonelu@whu.edu.cn
+  orcid: https://orcid.org/0000-0001-7097-1505
+  google-scholar: https://scholar.google.com/citations?user=yh9vjLQAAAAJ&hl=en
+  github: https://github.com/lonelu
+ 
 
 ### jekyll settings
 
