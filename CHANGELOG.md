@@ -143,7 +143,7 @@ High-level comparison with pre-releases:
 
 ### Added
 
-- New docs at greene-lab.gitbook.io/lab-website-template-docs.
+- New docs at lu-lab.gitbook.io/lab-website-template-docs.
 - Add automations for first time setup and URL change.
 - Write PubMed and Google Scholar automatic citation plugins.
 - Automatic citations through GitHub Actions should now work from (most) forks.
