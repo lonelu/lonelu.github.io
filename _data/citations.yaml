@@ -1,34 +1,5 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-<<<<<<< HEAD
-- id: doi:10.1126/science.adl5364
-  title: "De novo design of drug-binding proteins with predictable binding energy and specificity"
-  authors:
-  - Lei Lu
-  - etc
-# - "Vincent\_P Rubinetti"
- 
-  publisher: Science
-  date: '2024-04'
-  link: https://www.science.org/doi/10.1126/science.adl5364
-  orcid: 0000-0001-7097-1505
-  plugin: orcid.py
-  file: orcid.yaml
-
-- id: doi.org/10.1038/s41592-020-00985-5
-  title: "O-Pair Search with MetaMorpheus for O-glycopeptide characterization"
-  authors:
-  - Lei Lu
-  - etc
-# - "Vincent\_P Rubinetti"
- 
-  publisher: Science
-  date: '2024-04'
-  link: https://doi.org/10.1038/s41592-020-00985-5
-  orcid: 0000-0001-7097-1505
-  plugin: orcid.py
-  file: orcid.yaml
-=======
 - id: doi:10.1021/jacs.4c07920
   title: SuFEx Chemistry Enables Covalent Assembly of a 280-kDa 18-Subunit Pore-Forming
     Complex
@@ -237,4 +208,3 @@
   image: https://www.nature.com/articles/s41592-020-00985-5/figures/1
   plugin: sources.py
   file: sources.yaml
->>>>>>> eb4a29ca34b1060b495b02e7901d31ef67f83286
