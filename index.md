@@ -4,9 +4,10 @@
 # Lu Lab 
 
 ### 卢磊实验室 - 2025年1月
-### 方向： 蛋白质从头设计 - De novo protein design
-###       蛋白质组学技术 - Proteomics
-### 招聘博士后、科研助理。 详情请见：http://www.cls.edu.cn/info/1278/4945.htm
+### 方向1： 蛋白质从头设计 - De novo protein design
+### 方向2:  蛋白质组学技术 - Proteomics
+### 招聘博士后、科研助理。 有机化学背景、计算背景、酶催化背景加分。没有背景也没啥，来了再学。
+### 详情请见：http://www.cls.edu.cn/info/1278/4945.htm
 ### 欢迎联系： lonelu@whu.edu.cn
 
 {%
@@ -48,13 +49,13 @@
 {% capture text %}
 
 ### 想干很多，人手不足
-De novo protein design method development!
-De novo enzyme design!
-De novo drug binding design!
-De nove metalloprotein design!
-Proteomics!
-Proximity labeling proteomics!
-Other applications of de novo proteins.
+#### De novo protein design method development!
+#### De novo enzyme design!
+#### De novo drug binding design!
+#### De nove metalloprotein design!
+#### Proteomics!
+#### Proximity labeling proteomics!
+#### Other applications of de novo proteins.
 
 {%
   include button.html
@@ -79,7 +80,7 @@ Other applications of de novo proteins.
 
 {% capture text %}
 
-Only Me。。。。。。目前只有我一个人。。。。。。
+### Only Me。。。。。。目前只有我一个人。。。。。。
 
 {%
   include button.html

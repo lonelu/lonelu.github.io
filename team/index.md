@@ -7,7 +7,8 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Prof. Lei Lu.
+### Prof. Lei Lu. 
+
 
 {% include section.html %}
 
@@ -16,9 +17,7 @@ Prof. Lei Lu.
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+### 现在还没有别人，欢迎加入😧！！！
 
 {% include section.html %}
 

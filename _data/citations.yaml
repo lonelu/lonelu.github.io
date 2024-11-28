@@ -1,0 +1,29 @@
+# DO NOT EDIT, GENERATED AUTOMATICALLY
+
+- id: doi:10.1126/science.adl5364
+  title: "De novo design of drug-binding proteins with predictable binding energy and specificity"
+  authors:
+  - Lei Lu
+  - etc
+# - "Vincent\_P Rubinetti"
+ 
+  publisher: Science
+  date: '2024-04'
+  link: https://www.science.org/doi/10.1126/science.adl5364
+  orcid: 0000-0001-7097-1505
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi.org/10.1038/s41592-020-00985-5
+  title: "O-Pair Search with MetaMorpheus for O-glycopeptide characterization"
+  authors:
+  - Lei Lu
+  - etc
+# - "Vincent\_P Rubinetti"
+ 
+  publisher: Science
+  date: '2024-04'
+  link: https://doi.org/10.1038/s41592-020-00985-5
+  orcid: 0000-0001-7097-1505
+  plugin: orcid.py
+  file: orcid.yaml
