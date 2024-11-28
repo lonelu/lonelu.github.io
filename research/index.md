@@ -9,7 +9,9 @@ nav:
 
 To view my recent research, please look to my [google scholar](https://scholar.google.com/citations?user=yh9vjLQAAAAJ&hl=en).
 
-#### 这里应该能自动更新，但是我还没有搞定，先这样吧 😔。。。。。。
+#### 做点有趣的东西发表吧 😁
+
+#### 有点乱，代码好像出问题了，以后有空再弄吧 😔
 
 {% include section.html %}
 
