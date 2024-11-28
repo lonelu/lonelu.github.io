@@ -23,9 +23,9 @@
 
 {% capture text %}
 
-### We focus on de novo protein design and proteomics.
+### 蛋白质从头设计 & 蛋白质组学.
 
-### We focus on computation and experiment.
+### 计算 + 实验.
 
 {%
   include button.html
