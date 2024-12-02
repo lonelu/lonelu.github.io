@@ -18,7 +18,7 @@ nav:
 {%
   include button.html
   type="phone"
-  text="wechat: loneluu"
+  text="没有了"
   link="---"
 %}
 {%
