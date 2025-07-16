@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-### 欢迎联系！欢迎加入！......................................
+### 欢迎联系！欢迎加入！..........................欢迎
 
 {%
   include button.html
