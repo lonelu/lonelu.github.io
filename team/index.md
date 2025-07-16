@@ -17,7 +17,7 @@ nav:
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-### 现在还没有别人，欢迎加入😧！！！
+### 现在还没有别人，欢迎加入😧！！！......
 
 {% include section.html %}
 
