@@ -11,7 +11,7 @@ To view my recent research, please look to my [google scholar](https://scholar.g
 
 #### 做点有趣的东西发表吧 😁
 
-#### 有点乱，代码好像出问题了，以后有空再弄吧 😔
+#### 修改中 😔
 
 {% include section.html %}
 
