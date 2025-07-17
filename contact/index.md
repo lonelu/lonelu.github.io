@@ -7,7 +7,8 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-### 欢迎联系！欢迎加入！
+### 欢迎联系！欢迎加入！..........................欢迎
+
 
 {%
   include button.html
@@ -15,12 +16,12 @@ nav:
   text="lonelu@whu.edu.cn"
   link="lonelu@whu.edu.cn"
 %}
-{%
-  include button.html
-  type="phone"
-  text="没有了"
-  link="---"
-%}
+#{%
+ # include button.html
+ # type="phone"
+ # text=""
+ # link="---"
+#%}
 {%
   include button.html
   type="address"

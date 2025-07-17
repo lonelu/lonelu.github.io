@@ -1,5 +1,52 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1101/2025.06.24.661379
+  title: <i>De novo</i>designed bright, hyperstable rhodamine binders for fluorescence
+    microscopy
+  authors:
+  - Yuda Chen
+  - Klaus Yserentant
+  - Kibeom Hong
+  - Yiming Kuang
+  - Arghya Bhowmick
+  - Arthur Charles-Orszag
+  - Samuel J. Lord
+  - Lei Lu
+  - Kaipeng Hou
+  - Samuel I. Mann
+  - Jonathan B. Grimm
+  - Luke D. Lavis
+  - R. Dyche Mullins
+  - William F. DeGrado
+  - Bo Huang
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-06-25'
+  link: https://doi.org/g9tc5q
+  orcid: 0000-0001-7097-1505
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1126/science.adt7268
+  title: De novo design of porphyrin-containing proteins as efficient and stereoselective
+    catalysts
+  authors:
+  - Kaipeng Hou
+  - Wei Huang
+  - Miao Qi
+  - Thomas H. Tugwell
+  - Turki M. Alturaifi
+  - Yuda Chen
+  - Xingjie Zhang
+  - Lei Lu
+  - Samuel I. Mann
+  - Peng Liu
+  - Yang Yang
+  - William F. DeGrado
+  publisher: Science
+  date: '2025-05-08'
+  link: https://doi.org/g9mtd8
+  orcid: 0000-0001-7097-1505
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1021/jacs.4c07920
   title: SuFEx Chemistry Enables Covalent Assembly of a 280-kDa 18-Subunit Pore-Forming
     Complex
