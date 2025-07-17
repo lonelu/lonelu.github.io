@@ -39,26 +39,11 @@ def log(message="\n--------------------\n", indent=0, level="", newline=True):
     log to terminal, color determined by indent and level
     """
 
-<<<<<<< HEAD
-    palette = {
-=======
     colors = {
->>>>>>> template/main
         0: "[orange1]",
         1: "[salmon1]",
         2: "[violet]",
         3: "[sky_blue1]",
-<<<<<<< HEAD
-        "ERROR": "[white on #F43F5E]",
-        "WARNING": "[black on #EAB308]",
-        "SUCCESS": "[black on #10B981]",
-        "INFO": "[grey70]",
-    }
-    color = get_safe(palette, level, "") or get_safe(palette, indent, "") or "[white]"
-    if newline:
-        print()
-    print(indent * "    " + color + str(message) + "[/]", end="", flush=True)
-=======
         "ERROR": "[#F43F5E]",
         "WARNING": "[#EAB308]",
         "SUCCESS": "[#10B981]",
@@ -73,7 +58,6 @@ def log(message="\n--------------------\n", indent=0, level="", newline=True):
     if newline:
         print()
     print(indent * "    " + color + prefix + str(message) + "[/]", end="", flush=True)
->>>>>>> template/main
 
 
 def label(entry):
@@ -200,11 +184,7 @@ def cite_with_manubot(_id):
         commands = ["manubot", "cite", _id, "--log-level=WARNING"]
         output = subprocess.Popen(commands, stdout=subprocess.PIPE).communicate()
     except Exception as e:
-<<<<<<< HEAD
-        log(e, 3)
-=======
         log(e, indent=3)
->>>>>>> template/main
         raise Exception("Manubot could not generate citation")
 
     # parse results as json
