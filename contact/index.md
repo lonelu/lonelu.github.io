@@ -16,12 +16,12 @@ nav:
   text="lei_lu@tsinghua.edu.cn"
   link="lei_lu@tsinghua.edu.cn"
 %}
-#{%
- # include button.html
- # type="phone"
- # text=""
- # link="---"
-#%}
+{%
+  include button.html
+  type="phone"
+  text="12345678"
+  link="---"
+%}
 {%
   include button.html
   type="address"
