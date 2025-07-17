@@ -13,8 +13,8 @@ nav:
 {%
   include button.html
   type="email"
-  text="lonelu@whu.edu.cn"
-  link="lonelu@whu.edu.cn"
+  text="lei_lu@tsinghua.edu.cn"
+  link="lei_lu@tsinghua.edu.cn"
 %}
 #{%
  # include button.html
