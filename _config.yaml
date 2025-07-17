@@ -1,72 +1,72 @@
-# # site properties and page defaults
-# title: Lu Lab
-# subtitle: Lu Lei
-# description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
-# header: images/background.jpg
-# footer: images/background.jpg
-# proofer: false
+# site properties and page defaults
+title: Lu Lab
+subtitle: Lu Lei
+description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
+header: images/background.jpg
+footer: images/background.jpg
+proofer: false
 
-# # site social media and other links
-# links:
-#   email: lonelu@whu.edu.cn
-#   orcid: https://orcid.org/0000-0001-7097-1505
-#   google-scholar: https://scholar.google.com/citations?user=yh9vjLQAAAAJ&hl=en
-#   github: https://github.com/lonelu
+# site social media and other links
+links:
+  email: lonelu@whu.edu.cn
+  orcid: https://orcid.org/0000-0001-7097-1505
+  google-scholar: https://scholar.google.com/citations?user=yh9vjLQAAAAJ&hl=en
+  github: https://github.com/lonelu
  
 
-# ### jekyll settings
+### jekyll settings
 
-# # front matter defaults
-# defaults:
-#   # all markdown files
-#   - scope:
-#       path: ""
-#     values:
-#       layout: default
-#   # markdown files in /_members
-#   - scope:
-#       type: "members"
-#     values:
-#       layout: member
-#   # markdown files in /_posts
-#   - scope:
-#       type: "posts"
-#     values:
-#       layout: post
+# front matter defaults
+defaults:
+  # all markdown files
+  - scope:
+      path: ""
+    values:
+      layout: default
+  # markdown files in /_members
+  - scope:
+      type: "members"
+    values:
+      layout: member
+  # markdown files in /_posts
+  - scope:
+      type: "posts"
+    values:
+      layout: post
 
-# collections:
-#   # generate page for each member
-#   members:
-#     output: true
-#   # generate page for each post
-#   posts:
-#     output: true
+collections:
+  # generate page for each member
+  members:
+    output: true
+  # generate page for each post
+  posts:
+    output: true
 
-# # jekyll plugins
-# plugins:
-#   - jekyll-spaceship
-#   - jekyll-sitemap
-#   - jekyll-redirect-from
-#   - jekyll-feed
-#   - jekyll-last-modified-at
+# jekyll plugins
+plugins:
+  - jekyll-spaceship
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-last-modified-at
 
-# # code block syntax highlighting
-# highlighter: rouge
+# code block syntax highlighting
+highlighter: rouge
 
-# # jekyll theme
-# theme: null
+# jekyll theme
+theme: null
 
-# # sass settings
-# sass:
-#   sass_dir: _styles
+# sass settings
+sass:
+  sass_dir: _styles
 
-# # force jekyll to include certain files/folders
-# include:
-#   - _styles
-#   - _scripts
+# force jekyll to include certain files/folders
+include:
+  - _styles
+  - _scripts
 
-# # force jekyll to exclude certain files/folders
-# exclude:
-#   - README.md
-#   - LICENSE.md
-#   - CITATION.cff
+# force jekyll to exclude certain files/folders
+exclude:
+  - README.md
+  - LICENSE.md
+  - CITATION.cff
