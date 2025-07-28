@@ -1,7 +1,7 @@
 ---
 name: Lei Lu
 image: images/photo.jpg
-role: pi
+role:pi
 affiliation: Tsinghua University 
 
 links:
