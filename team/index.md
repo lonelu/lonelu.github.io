@@ -8,7 +8,7 @@ nav:
 {% include section.html %}
 
 <!-- PI成员 -->
-{% include list.html data="members" component="portrait" filters="role==pi" %}
+{% include list.html data="pi" component="portrait"  %}
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 团队成员
