@@ -1,11 +1,11 @@
 ---
-name: Sarah Johnson
-image: images/photo.jpg
-description: Lead Programmer
-role: programmer
-links:
-  email: sarah.johnson@gmail.com
-  twitter: sarahjohnson
----
+name: 袭琳(Lin Xi)
+image: images/袭琳.jpg
+role: PhD Student
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+aliases:
+
+
+---
+进一寸有一寸的欢喜
+爱好：唱歌
