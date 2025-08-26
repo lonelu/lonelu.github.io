@@ -9,17 +9,10 @@ nav:
 
 To view my recent research, please look to my [google scholar](https://scholar.google.com/citations?user=yh9vjLQAAAAJ&hl=en).
 
-#### 做点有趣的东西发表吧 😁
 
-#### 修改中 😔
 
 {% include section.html %}
 
-## Highlighted
-
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
-
-{% include section.html %}
 
 ## All
 
