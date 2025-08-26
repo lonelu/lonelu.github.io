@@ -1,7 +1,7 @@
 ---
 name: 任卓芸
 image: images/任卓芸.jpg
-role: PhD Student
+description: PhD Student
 
 aliases:
 
