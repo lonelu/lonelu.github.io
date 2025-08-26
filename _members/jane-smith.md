@@ -1,7 +1,7 @@
 ---
 name: 徐敬天（Jingtian Xu）
 image: images/徐敬天.jpg
-role: PhD Student
+description: PhD Student
 affiliation: 清华大学
 aliases:
 
