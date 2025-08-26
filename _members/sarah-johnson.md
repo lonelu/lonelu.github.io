@@ -1,7 +1,7 @@
 ---
 name: 袭琳(Lin Xi)
 image: images/袭琳.jpg
-role: PhD Student
+description: PhD Student
 
 aliases:
 
