@@ -1,6 +1,6 @@
 ---
 name: 任卓芸（Zhuoyun Ren）
-image: images/任卓芸.jpg
+image: images/任卓芸.png
 description: PhD Student
 
 aliases:
