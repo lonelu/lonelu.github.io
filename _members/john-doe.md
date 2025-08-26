@@ -1,5 +1,5 @@
 ---
-name: 任卓芸
+name: 任卓芸（Zhuoyun Ren）
 image: images/任卓芸.jpg
 description: PhD Student
 
