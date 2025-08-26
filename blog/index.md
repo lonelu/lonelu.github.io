@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-feather-pointed" %}Blog
 
-### 在这里记录实验室的一些有趣的事儿吧1111111111111 👌
+### 网站博客记录
 
 {% include section.html %}
 
