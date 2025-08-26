@@ -1,5 +1,5 @@
 ---
-name:　卢磊（Lei Lu） 
+name:卢磊（Lei Lu） 
 image: images/卢磊.jpg
 description: pi
 affiliation: Tsinghua University 
