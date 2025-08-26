@@ -7,7 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-### 欢迎联系！欢迎加入！..........................欢迎
+### 欢迎联系！欢迎加入！
 
 
 {%
@@ -16,12 +16,7 @@ nav:
   text="lei_lu@tsinghua.edu.cn"
   link="lei_lu@tsinghua.edu.cn"
 %}
-{%
-  include button.html
-  type="phone"
-  text="12345678"
-  link="---"
-%}
+
 {%
   include button.html
   type="address"
@@ -35,8 +30,8 @@ nav:
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="不知道放啥照片"
+  image="images/水木清华.jpg"
+  caption="水木清华"
 %}
 
 {% endcapture %}
@@ -45,8 +40,8 @@ nav:
 
 {%
   include figure.html
-  image="images/photo.jpg"
-  caption="不知道放啥照片"
+  image="images/荷塘月色.jpg"
+  caption="荷塘月色"
 %}
 
 {% endcapture %}
@@ -56,15 +51,13 @@ nav:
 {% include section.html dark=true %}
 
 {% capture col1 %}
-不知道写啥
+天行健
 {% endcapture %}
 
 {% capture col2 %}
-不知道写啥
+君子以自强不息
 {% endcapture %}
 
-{% capture col3 %}
-不知道写啥
-{% endcapture %}
 
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+
+{% include cols.html col1=col1 col2=col2  %}
