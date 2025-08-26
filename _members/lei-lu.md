@@ -2,7 +2,7 @@
 name: 卢磊(Lei Lu)
 image: images/卢磊.jpg
 description: pi
-
+affiliation: 清华大学
 aliases:
 
 
