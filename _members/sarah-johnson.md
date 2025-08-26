@@ -2,7 +2,7 @@
 name: 袭琳(Lin Xi)
 image: images/袭琳.jpg
 description: PhD Student
-
+affiliation: 清华大学
 aliases:
 
 
