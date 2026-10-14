@@ -1,11 +1,13 @@
 ---
-name: 袭琳(Lin Xi)
+name: Lin Xi
 image: images/袭琳.jpg
+role: phd
 description: PhD Student
-affiliation: 清华大学
+email: xil25@mails.tsinghua.edu.cn
+affiliation: Tsinghua University
 aliases:
 
 
 ---
-进一寸有一寸的欢喜
-爱好：唱歌
+Every step forward brings its own joy.
+Enjoys singing.

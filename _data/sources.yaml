@@ -1,20 +1,55 @@
-- id: 10.1126/science.adl5364
+- id: doi:10.1101/2025.06.24.661379
   type: paper
-  description: Drug binding protein design.
-  date: 2024-04
-  image: 
-  buttons:
-    - type: manubot
-      link: https://www.science.org/doi/10.1126/science.adl5364#F1
-    - type: source
-      text: Manuscript Source
-      link: 
-    - type: website
-      link: http://manubot.org/
-  tags:
-    - open science
-    - collaboration
-  repo: 
+  image: images/publications/2025-rhodamine-binders-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC12262669/figure/F1/
 
-- id: https://doi.org/10.1038/s41592-020-00985-5
-  image: https://www.nature.com/articles/s41592-020-00985-5/figures/1
+- id: doi:10.1126/science.adt7268
+  type: paper
+  image: images/publications/2025-porphyrin-catalysts-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC12316402/figure/F1/
+
+- id: doi:10.1021/jacs.4c07920
+  type: paper
+  image: images/publications/2024-sufex-pore-complex-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC12360496/figure/F1/
+
+- id: doi:10.1126/science.adl5364
+  type: paper
+  description: Drug-binding protein design.
+  image: images/publications/2024-drug-binding-proteins-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC11290694/figure/F1/
+
+- id: doi:10.1021/jasms.0c00462
+  type: paper
+  image: images/publications/2021-mesh-fragmentation-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC8783543/figure/F1/
+
+- id: doi:10.1021/acs.jproteome.0c00838
+  type: paper
+  image: images/publications/2021-binary-classifier-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC8377504/figure/F1/
+
+- id: doi:10.1021/acs.jproteome.0c00407
+  type: paper
+  image: images/publications/2020-spritz-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC8024408/figure/F1/
+
+- id: doi:10.1038/s41592-020-00985-5
+  type: paper
+  image: images/publications/2020-opair-search-fig1.jpg
+  figure: https://www.nature.com/articles/s41592-020-00985-5/figures/1
+
+- id: doi:10.1101/2020.05.18.102327
+  type: paper
+  image: images/publications/2020-opair-search-fig1.jpg
+  figure: https://www.biorxiv.org/content/10.1101/2020.05.18.102327v1.full#F1
+
+- id: doi:10.1021/acs.analchem.8b04580
+  type: paper
+  image: images/publications/2019-hotmaq-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC6379083/figure/F1/
+
+- id: doi:10.1021/acs.jproteome.8b00141
+  type: paper
+  image: images/publications/2018-metamorpheus-xl-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC6501566/figure/F1/

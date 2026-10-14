@@ -1,30 +1,24 @@
-- title: Cool Dataset
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/lonelu
-  description: 现在啥也没有。。。。。
-  repo: https://github.com/lonelu
-  tags:
-    - resource
+- title: Metalprot
+  mark: MP
+  image: images/resources/metalprot_logo.jpg
+  subtitle: Metalloprotein Design
+  description: Computational tools for exploring and designing metal-binding protein structures.
 
-- title: Cool Package
-  subtitle: a subtitle
-  group: featured
-  image: images/photo.jpg
-  link: https://github.com/lonelu
-  description: 现在啥也没有。。。。。
-  repo: https://github.com/lonelu
-  tags:
-    - resource
+- title: Bondflow
+  mark: BF
+  subtitle: Protein Design Workflow
+  description: Computational tools for the design and evaluation of cyclic peptides and polypeptides.
 
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/lonelu
-  description: 现在啥也没有。。。。。
-  repo: https://github.com/lonelu
-  tags:
-    - resource
-    - publication
+- title: O-Pair Search
+  mark: OP
+  image: images/resources/metamorpheus-modules-icon.png
+  image_is_icon: true
+  subtitle: O-Glycopeptide Characterization
+  description: A MetaMorpheus search module for identifying O-glycopeptides and localizing O-glycosites from paired fragmentation spectra.
 
+- title: Crosslink Search
+  mark: XL
+  image: images/resources/metamorpheus-modules-icon.png
+  image_is_icon: true
+  subtitle: MetaMorpheusXL
+  description: The MetaMorpheusXL module for identifying MS-cleavable and noncleavable chemically cross-linked peptides.

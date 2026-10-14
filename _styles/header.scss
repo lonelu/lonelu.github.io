@@ -39,12 +39,21 @@ header a {
 }
 
 .logo {
+  display: block;
+  width: 148px;
   height: $logo;
 }
 
 .logo > * {
   width: unset;
   height: 100%;
+}
+
+.logo > img {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+  filter: drop-shadow(0 1px 2px rgb(255 255 255 / 42%));
 }
 
 .title-text {

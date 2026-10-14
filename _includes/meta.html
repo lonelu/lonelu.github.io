@@ -32,9 +32,12 @@
 
 {% assign description = description | xml_escape %}
 
-{% assign png = "images/icon.png" | file_exists %}
+{% assign png = "images/favicon.png" | file_exists %}
 {% assign jpg = "images/icon.jpg" | file_exists %}
 {% assign icon = png | default: jpg | relative_url %}
+{% assign favicon_32 = "images/favicon-32.png" | relative_url %}
+{% assign favicon_16 = "images/favicon-16.png" | relative_url %}
+{% assign apple_touch_icon = "images/apple-touch-icon.png" | relative_url %}
 
 {% assign jpg = "images/share.jpg" | file_exists %}
 {% assign png = "images/share.png" | file_exists %}
@@ -49,7 +52,9 @@
 
 <title>{{ fulltitle }}</title>
 
-<link rel="icon" href="{{ icon }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ favicon_32 }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ favicon_16 }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ apple_touch_icon }}">
 
 <meta name="title" content="{{ title }}">
 <meta name="description" content="{{ description }}">

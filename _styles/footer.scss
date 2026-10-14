@@ -8,18 +8,19 @@ footer {
   flex-direction: column;
   gap: 20px;
   padding: 40px;
+  background: #000;
+  color: #fff;
   line-height: var(--spacing);
   box-shadow: var(--shadow);
 }
 
-footer a {
-  color: var(--text) !important;
+.footer-logo {
+  display: block;
+  width: min(260px, 72vw);
 }
 
-footer a:hover {
-  color: var(--primary) !important;
-}
-
-footer .icon {
-  font-size: var(--xl);
+.footer-logo img {
+  display: block;
+  width: 100%;
+  height: auto;
 }

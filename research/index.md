@@ -1,13 +1,13 @@
 ---
-title: Research
+title: Publications
 nav:
   order: 1
   tooltip: Published works
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-microscope" %}Publications
 
-To view my recent research, please look to my [google scholar](https://scholar.google.com/citations?user=yh9vjLQAAAAJ&hl=en).
+For a complete and up-to-date list of publications from the Lu Lab, please visit [Google Scholar](https://scholar.google.com/citations?user=yh9vjLQAAAAJ&hl=en).
 
 
 

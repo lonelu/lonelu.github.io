@@ -5,6 +5,16 @@
   display: contents;
 }
 
+.alumni-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px 28px;
+  margin: 20px auto;
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+}
+
 .portrait {
   position: relative;
   display: inline-flex;
@@ -12,7 +22,7 @@
   align-items: center;
   flex-direction: column;
   margin: 20px;
-  width: 175px;
+  width: 270px;
   max-width: calc(100% - 20px - 20px);
   text-decoration: none;
 }
@@ -53,7 +63,8 @@
 }
 
 .portrait-image {
-  width: 100%;
+  width: 175px;
+  max-width: 100%;
   margin-bottom: 20px;
   aspect-ratio: 1 / 1;
   border-radius: 999px;
@@ -67,13 +78,33 @@
 }
 
 .portrait-name {
+  width: 100%;
   font-family: var(--heading);
   font-weight: var(--semi-bold);
+  text-align: left;
+}
+
+.portrait[data-style="small"] .portrait-image {
+  width: 100%;
+}
+
+.portrait-description,
+.portrait-email {
+  width: 100%;
+  margin-top: 4px;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+.portrait-email {
+  white-space: nowrap;
+  overflow-wrap: normal;
+  word-break: normal;
 }
 
 .portrait[data-style="tiny"] {
   .portrait-description,
-  .portrait-affiliation {
+  .portrait-email {
     display: none;
   }
 }

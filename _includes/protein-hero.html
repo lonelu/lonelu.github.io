@@ -1,0 +1,48 @@
+<figure class="protein-hero" aria-labelledby="protein-hero-title protein-hero-caption">
+  <div class="protein-hero__visual">
+    <img
+      id="protein-hero-poster"
+      class="protein-hero__poster"
+      src="{{ '/assets/protein-hero/poster.png' | relative_url }}"
+      alt="Ribbon representation of the hemoglobin tetramer"
+    >
+    <div
+      id="protein-hero-stage"
+      class="protein-hero__stage"
+      aria-label="Animated hemoglobin ribbon structure"
+    ></div>
+
+    <div class="protein-hero__heading">
+      <div id="protein-hero-category" class="protein-hero__eyebrow">Protein assembly</div>
+      <h2 id="protein-hero-title">Hemoglobin</h2>
+      <a
+        id="protein-hero-source"
+        class="protein-hero__source"
+        href="https://www.rcsb.org/structure/4HHB"
+        target="_blank"
+        rel="noreferrer"
+      >PDB 4HHB <span aria-hidden="true">↗</span></a>
+    </div>
+
+    <p id="protein-hero-fallback" class="protein-hero__fallback" hidden>
+      Interactive 3D is unavailable in this browser.
+    </p>
+  </div>
+
+  <div
+    id="protein-hero-selector"
+    class="protein-hero__selector"
+    role="group"
+    aria-label="Choose a protein structure"
+  ></div>
+
+  <figcaption id="protein-hero-caption" class="sr-only">
+    Explore six experimental protein structures representing molecular binding,
+    catalysis, membrane signaling, protein assembly, molecular recognition, and therapeutics.
+  </figcaption>
+  <p id="protein-hero-announcement" class="sr-only" aria-live="polite"></p>
+</figure>
+
+<script src="{{ '/assets/protein-hero/three.min.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/protein-hero/structures.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/protein-hero/protein-hero.js' | relative_url }}" defer></script>

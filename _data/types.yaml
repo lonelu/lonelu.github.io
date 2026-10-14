@@ -6,6 +6,14 @@ principal-investigator:
   icon: fa-solid fa-microscope
   description: Principal Investigator
 
+manager:
+  icon: fa-solid fa-clipboard-user
+  description: Manager
+
+research-assistant:
+  icon: fa-solid fa-flask
+  description: Research Assistant
+
 postdoc:
   icon: fa-solid fa-glasses
   description: Postdoctoral Researcher
@@ -17,6 +25,10 @@ phd:
 undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
+
+alumni:
+  icon: fa-solid fa-user
+  description: Alumni
 
 programmer:
   icon: fa-solid fa-code

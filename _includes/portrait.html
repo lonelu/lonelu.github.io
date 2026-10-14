@@ -31,21 +31,15 @@
     >
 
     {% if member.name %}
-      <span class="portrait-name">
-        {{ member.name }}
-      </span>
+      <span class="portrait-name"><strong>Name:</strong> {{ member.name }}</span>
     {% endif %}
 
     {% if member.description or type %}
-      <span class="portrait-description">
-        {{ member.description | default: type.description }}
-      </span>
+      <span class="portrait-description"><strong>Position:</strong> {{ member.description | default: type.description }}</span>
     {% endif %}
 
-    {% if member.affiliation %}
-      <span class="portrait-affiliation">
-        {{ member.affiliation }}
-      </span>
+    {% if member.email %}
+      <span class="portrait-email"><strong>Email:</strong><br>{{ member.email }}</span>
     {% endif %}
   </a>
 </div>
