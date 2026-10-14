@@ -14,31 +14,32 @@ env:
 
 permissions:
   contents: write
+  pages: read
 
 jobs:
   build-site:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
-      - name: Debug dump
-        uses: crazy-max/ghaction-dump-context@v2
-
       - name: Checkout branch contents
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
-      - name: Install Ruby packages
+      - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.1"
-          bundler-cache: true
+          ruby-version: "3.2"
+          bundler-cache: false
+
+      # google-protobuf 3.25.x invokes rake while its native extension is
+      # installed, but does not declare rake as a runtime dependency.
+      - name: Install Ruby packages
+        run: |
+          gem install rake --version 13.1.0 --no-document
+          bundle install --jobs 4 --retry 3
 
       - name: Get Pages url
         id: pages
-        uses: actions/configure-pages@v4
-
-      - name: SSH debug
-        if: runner.debug == '1'
-        uses: mxschmitt/action-tmate@v3
+        uses: actions/configure-pages@v5
 
       - name: Set root url
         run: |
@@ -47,9 +48,10 @@ jobs:
       - name: Build live version of site
         run: |
           JEKYLL_ENV=production bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
+          touch _site/.nojekyll
 
       - name: Commit live site to Pages branch
-        uses: JamesIves/github-pages-deploy-action@v4.5.0
+        uses: JamesIves/github-pages-deploy-action@v4.9.0
         with:
           folder: _site
           clean-exclude: ${{ env.PREVIEWS_FOLDER }}

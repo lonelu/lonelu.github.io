@@ -11,7 +11,12 @@ on:
 
 permissions:
   contents: write
+  pages: read
   pull-requests: write
+
+concurrency:
+  group: production-site
+  cancel-in-progress: true
 
 jobs:
   update-citations:

@@ -24,23 +24,20 @@ env:
 
 jobs:
   update-citations:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
 
     steps:
-      - name: Debug dump
-        uses: crazy-max/ghaction-dump-context@v2
-
       - name: Checkout branch contents
         if: github.event.action != 'closed'
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: ${{ github.event.pull_request.head.repo.full_name }}
           ref: ${{ github.head_ref }}
 
       - name: Set up Python
         if: github.event.action != 'closed'
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.11"
           cache: "pip"
@@ -50,10 +47,6 @@ jobs:
         if: github.event.action != 'closed'
         run: |
           python -m pip install --upgrade --requirement ./_cite/requirements.txt
-
-      - name: SSH debug
-        if: runner.debug == '1'
-        uses: mxschmitt/action-tmate@v3
 
       - name: Build updated citations
         if: github.event.action != 'closed'
@@ -70,7 +63,7 @@ jobs:
       - name: Check if citations changed
         if: github.event.action != 'closed'
         id: changed
-        uses: tj-actions/verify-changed-files@v18
+        uses: tj-actions/verify-changed-files@v20
         with:
           files: |
             _data/citations.yaml
