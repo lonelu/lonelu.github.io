@@ -41,24 +41,29 @@
 
 
 
+
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Team | lonelu</title>
+<title>People | Lu Lab</title>
 
-<link rel="icon" href="/images/icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
 
-<meta name="title" content="Team">
-<meta name="description" content="An engaging 1-3 sentence description of your lab.">
+<meta name="title" content="People">
+<meta name="description" content="Tsinghua Protein Design Center. Computational and experimental approaches for designing functional proteins from scratch.">
 
-<meta property="og:title" content="Team">
-<meta property="og:site_title" content="lonelu">
-<meta property="og:description" content="An engaging 1-3 sentence description of your lab.">
+<meta property="og:title" content="People">
+<meta property="og:site_title" content="Lu Lab">
+<meta property="og:description" content="Tsinghua Protein Design Center. Computational and experimental approaches for designing functional proteins from scratch.">
 <meta property="og:url" content="https://lonelu.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="Team">
-<meta property="twitter:description" content="An engaging 1-3 sentence description of your lab.">
+<meta property="twitter:title" content="People">
+<meta property="twitter:description" content="Tsinghua Protein Design Center. Computational and experimental approaches for designing functional proteins from scratch.">
 <meta property="twitter:url" content="https://lonelu.github.io">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:image" content="/images/share.jpg">
@@ -73,12 +78,12 @@
     
       "@type": "WebSite",
     
-    "name": "Team",
-    "description": "An engaging 1-3 sentence description of your lab.",
-    "headline": "Team",
+    "name": "People",
+    "description": "Tsinghua Protein Design Center. Computational and experimental approaches for designing functional proteins from scratch.",
+    "headline": "People",
     "publisher": {
       "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+      "logo": { "@type": "ImageObject", "url": "/images/favicon.png" }
     },
     "url": "https://lonelu.github.io"
   }
@@ -127,6 +132,10 @@
   
 
   
+    <link href="/_styles/blog.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/body.css" rel="stylesheet">
   
 
@@ -159,7 +168,7 @@
   
 
   
-    <link href="/_styles/dark-toggle.css" rel="stylesheet">
+    <link href="/_styles/contact.css" rel="stylesheet">
   
 
   
@@ -207,6 +216,10 @@
   
 
   
+    <link href="/_styles/home.css" rel="stylesheet">
+  
+
+  
     <link href="/_styles/icon.css" rel="stylesheet">
   
 
@@ -248,6 +261,10 @@
 
   
     <link href="/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/resources.css" rel="stylesheet">
   
 
   
@@ -340,6 +357,10 @@
 
   
 
+  
+
+  
+
 
 <!-- include all css in styles folder -->
 
@@ -354,8 +375,6 @@
 
 
   <script src="/_scripts/anchors.js"></script>
-
-  <script src="/_scripts/dark-mode.js"></script>
 
   <script src="/_scripts/fetch-tags.js"></script>
 
@@ -379,77 +398,23 @@
 
 
 
+
 <header class="background" style="--image: url('/images/background.jpg')" data-dark="true">
   <a href="/" class="home">
     
       <span class="logo">
         
-          <svg xmlns="http://www.w3.org/2000/svg" viewbox="-40 -60 80 100">
-  <style>
-    .bubble {
-      animation: float 2s ease-out both infinite var(--delay);
-    }
-    @keyframes float {
-      0% {
-        opacity: 0;
-      }
-      50% {
-        transform: translateY(0);
-        opacity: 0;
-      }
-      75% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 0;
-        transform: translateY(-40px);
-      }
-    }
-  </style>
-  <g fill="currentColor" opacity="0.5">
-    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.1s"></circle>
-    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 0.4s"></circle>
-    <circle class="bubble" cx="0" cy="-10" r="3" style="--delay: 1.1s"></circle>
-  </g>
-  <path fill="#38bdf8" d="
-      M 0 -22.5
-      L -19.5 -11.25
-      L -19.5 11.25
-      L 0 22.5
-      L 19.5 11.25
-      L 19.5 -11.25
-      z
-    "></path>
-  <path fill="#bae6fd" d="
-      M 0 -22.5
-      L -19.5 -11.25
-      L 0 0
-      L 19.5 -11.25
-      z
-    "></path>
-  <path fill="none" stroke="currentColor" stroke-width="5" d="
-      M -18 -53
-      L -10 -53
-      L -10 -29.2
-      L -30.3 -17.5
-      L -30.3 17.5
-      L 0 35
-      L 30.3 17.5
-      L 30.3 -17.5
-      L 10 -29.2
-      L 10 -53
-      L 18 -53
-    "></path>
-</svg>
-
+          <img src="/images/lulab-logo-transparent.png" alt="Lu Lab logo">
         
       </span>
     
     
       <span class="title-text" data-tooltip="Home">
         
-          <span class="title">lonelu</span>
+          <span class="title">Lu Lab</span>
         
+        
+          <span class="subtitle">Tsinghua Protein Design Center</span>
         
       </span>
     
@@ -461,20 +426,26 @@
     
     
       
+        <a href="/" data-tooltip="Home">
+          Home
+        </a>
+      
+    
+      
         <a href="/research/" data-tooltip="Published works">
-          Research
+          Publications
+        </a>
+      
+    
+      
+        <a href="/projects/" data-tooltip="Software and tools">
+          Resources
         </a>
       
     
       
         <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
-      
-    
-      
-        <a href="/projects/" data-tooltip="Software, datasets, and more">
-          Projects
+          People
         </a>
       
     
@@ -517,377 +488,302 @@
   <size></size>
 -->
 
-<!-- PI成员 -->
+<h1 id="people">
+<i class="icon fa-solid fa-users"></i>People</h1>
 
-<h1 id="team">
-<i class="icon fa-solid fa-users"></i>Team</h1>
-<p>团队成员</p>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
-
-<!-- 非PI成员：使用 invert 反转过滤 -->
+<h2 id="pi">PI</h2>
 
 <div class="portrait-wrapper">
-  <a href="/members/jane-smith.html" class="portrait" data-style="" aria-label="徐敬天 Jingtian Xu">
+  <a href="/members/lei-lu.html" class="portrait" data-style="" aria-label="Lei Lu">
     
-
-    <img src="/images/%E5%BE%90%E6%95%AC%E5%A4%A9.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-name">
-        徐敬天（Jingtian Xu）
-      </span>
-    
-
-    
-      <span class="portrait-description">
-        PhD Student
-      </span>
-    
-
-    
-      <span class="portrait-affiliation">
-        清华大学
-      </span>
-    
-  </a>
-</div>
-
-<div class="portrait-wrapper">
-  <a href="/members/john-doe.html" class="portrait" data-style="" aria-label="任卓芸 Zhuoyun Ren">
-    
-
-    <img src="/images/%E4%BB%BB%E5%8D%93%E8%8A%B8.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-name">
-        任卓芸（Zhuoyun Ren）
-      </span>
-    
-
-    
-      <span class="portrait-description">
-        PhD Student
-      </span>
-    
-
-    
-      <span class="portrait-affiliation">
-        清华大学
-      </span>
-    
-  </a>
-</div>
-
-<div class="portrait-wrapper">
-  <a href="/members/lei-lu.html" class="portrait" data-style="" aria-label="卢磊 Lei Lu">
+      <i class="icon fa-solid fa-microscope"></i>
     
 
     <img src="/images/%E5%8D%A2%E7%A3%8A.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-name">
-        卢磊(Lei Lu)
-      </span>
+      <span class="portrait-name"><strong>Name:</strong> Lei Lu</span>
     
 
     
-      <span class="portrait-description">
-        pi
-      </span>
+      <span class="portrait-description"><strong>Position:</strong> Principal Investigator (PI)</span>
     
 
     
-      <span class="portrait-affiliation">
-        清华大学
-      </span>
+      <span class="portrait-email"><strong>Email:</strong><br>lei_lu@tsinghua.edu.cn</span>
     
   </a>
 </div>
 
-<div class="portrait-wrapper">
-  <a href="/members/sarah-johnson.html" class="portrait" data-style="" aria-label="袭琳 Lin Xi">
-    
-
-    <img src="/images/%E8%A2%AD%E7%90%B3.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-name">
-        袭琳(Lin Xi)
-      </span>
-    
-
-    
-      <span class="portrait-description">
-        PhD Student
-      </span>
-    
-
-    
-      <span class="portrait-affiliation">
-        清华大学
-      </span>
-    
-  </a>
-</div>
+<h2 id="manager">Manager</h2>
 
 <div class="portrait-wrapper">
-  <a href="/members/%E4%BD%99%E9%94%A6%E7%9A%93.html" class="portrait" data-style="" aria-label="余锦皓 Jinhao Yu">
+  <a href="/members/%E7%8E%8B%E7%91%9C.html" class="portrait" data-style="" aria-label="Yu Wang">
     
-
-    <img src="/images/%E4%BD%99%E9%94%A6%E7%9A%93.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-name">
-        余锦皓(Jinhao Yu)
-      </span>
-    
-
-    
-      <span class="portrait-description">
-        Research assistant
-      </span>
-    
-
-    
-      <span class="portrait-affiliation">
-        清华大学
-      </span>
-    
-  </a>
-</div>
-
-<div class="portrait-wrapper">
-  <a href="/members/%E5%88%98%E5%B0%8F%E7%90%AA.html" class="portrait" data-style="" aria-label="刘小琪 Xiaoqi Liu">
-    
-
-    <img src="/images/%E5%88%98%E5%B0%8F%E7%90%AA.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-name">
-        刘小琪（Xiaoqi Liu））
-      </span>
-    
-
-    
-      <span class="portrait-description">
-        Research assistant
-      </span>
-    
-
-    
-      <span class="portrait-affiliation">
-        清华大学
-      </span>
-    
-  </a>
-</div>
-
-<div class="portrait-wrapper">
-  <a href="/members/%E5%8D%95%E5%B7%9D.html" class="portrait" data-style="" aria-label="单川 Chuan Shan">
-    
-
-    <img src="/images/%E5%8D%95%E5%B7%9D.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-name">
-        单川（Chuan Shan）
-      </span>
-    
-
-    
-      <span class="portrait-description">
-        Postdoctoral Associate
-      </span>
-    
-
-    
-      <span class="portrait-affiliation">
-        清华大学
-      </span>
-    
-  </a>
-</div>
-
-<div class="portrait-wrapper">
-  <a href="/members/%E5%BC%A0%E9%9D%96%E9%98%B3.html" class="portrait" data-style="" aria-label="张靖阳 Jingyang Zhang">
-    
-
-    <img src="/images/%E5%BC%A0%E9%9D%96%E9%98%B3.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-name">
-        张靖阳(Jingyang Zhang)
-      </span>
-    
-
-    
-      <span class="portrait-description">
-        PhD Student (co-mentor Yefeng TANG, 唐叶峰)
-      </span>
-    
-
-    
-      <span class="portrait-affiliation">
-        清华大学
-      </span>
-    
-  </a>
-</div>
-
-<div class="portrait-wrapper">
-  <a href="/members/%E6%9D%8E%E6%98%8A%E9%98%B3.html" class="portrait" data-style="" aria-label="李昊阳 Haoyang S. Y. Li">
-    
-
-    <img src="/images/%E6%9D%8E%E6%98%8A%E9%98%B3.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-name">
-        李昊阳（Haoyang S. Y. Li）
-      </span>
-    
-
-    
-      <span class="portrait-description">
-        Undergraduate Student
-      </span>
-    
-
-    
-      <span class="portrait-affiliation">
-        清华大学
-      </span>
-    
-  </a>
-</div>
-
-<div class="portrait-wrapper">
-  <a href="/members/%E6%AD%A6%E5%B0%8F%E5%A6%B9.html" class="portrait" data-style="" aria-label="武小妹 Xiaomei Wu">
-    
-
-    <img src="/images/%E6%AD%A6%E5%B0%8F%E5%A6%B9.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-
-    
-      <span class="portrait-name">
-        武小妹(Xiaomei Wu)
-      </span>
-    
-
-    
-      <span class="portrait-description">
-        Postdoctoral Associate
-      </span>
-    
-
-    
-      <span class="portrait-affiliation">
-        清华大学
-      </span>
-    
-  </a>
-</div>
-
-<div class="portrait-wrapper">
-  <a href="/members/%E7%8E%8B%E7%91%9C.html" class="portrait" data-style="" aria-label="王瑜 Yu Wang">
+      <i class="icon fa-solid fa-clipboard-user"></i>
     
 
     <img src="/images/%E7%8E%8B%E7%91%9C.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-name">
-        王瑜(Yu Wang)
-      </span>
+      <span class="portrait-name"><strong>Name:</strong> Yu Wang</span>
     
 
     
-      <span class="portrait-description">
-        BOSS
-      </span>
+      <span class="portrait-description"><strong>Position:</strong> Manager</span>
     
 
     
-      <span class="portrait-affiliation">
-        清华大学
-      </span>
+  </a>
+</div>
+
+<h2 id="postdoc">Postdoc</h2>
+
+<div class="portrait-wrapper">
+  <a href="/members/%E5%8D%95%E5%B7%9D.html" class="portrait" data-style="" aria-label="Chuan Shan">
+    
+      <i class="icon fa-solid fa-glasses"></i>
+    
+
+    <img src="/images/%E5%8D%95%E5%B7%9D.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name"><strong>Name:</strong> Chuan Shan</span>
+    
+
+    
+      <span class="portrait-description"><strong>Position:</strong> Postdoctoral Associate</span>
+    
+
+    
+      <span class="portrait-email"><strong>Email:</strong><br>shanc@mail.tsinghua.edu.cn</span>
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
-  <a href="/members/%E7%BD%97%E9%9B%85%E6%96%87.html" class="portrait" data-style="" aria-label="罗雅文 Yanwen Luo">
+  <a href="/members/%E6%AD%A6%E5%B0%8F%E5%A6%B9.html" class="portrait" data-style="" aria-label="Xiaomei Wu">
+    
+      <i class="icon fa-solid fa-glasses"></i>
     
 
-    <img src="/images/%E7%BD%97%E9%9B%85%E6%96%87.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/%E6%AD%A6%E5%B0%8F%E5%A6%B9.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-name">
-        罗雅文(Yanwen Luo)
-      </span>
-    
-
-    
-      <span class="portrait-description">
-        PhD Student (co-mentor Qin wei,秦为)
-      </span>
+      <span class="portrait-name"><strong>Name:</strong> Xiaomei Wu</span>
     
 
     
-      <span class="portrait-affiliation">
-        清华大学
-      </span>
+      <span class="portrait-description"><strong>Position:</strong> Postdoctoral Associate</span>
+    
+
+    
+      <span class="portrait-email"><strong>Email:</strong><br>wuxiaomei@mail.tsinghua.edu.cn</span>
+    
+  </a>
+</div>
+
+<h2 id="phd">PhD</h2>
+
+<div class="portrait-wrapper">
+  <a href="/members/jane-smith.html" class="portrait" data-style="" aria-label="Jingtian Xu">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
+    <img src="/images/%E5%BE%90%E6%95%AC%E5%A4%A9.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name"><strong>Name:</strong> Jingtian Xu</span>
+    
+
+    
+      <span class="portrait-description"><strong>Position:</strong> PhD Student</span>
+    
+
+    
+      <span class="portrait-email"><strong>Email:</strong><br>xujt24@mails.tsinghua.edu.cn</span>
     
   </a>
 </div>
 
 <div class="portrait-wrapper">
-  <a href="/members/%E8%B5%B5%E5%B0%9A%E5%8B%8B.html" class="portrait" data-style="" aria-label="赵尚勋 Shangxun Zhao">
+  <a href="/members/john-doe.html" class="portrait" data-style="" aria-label="Zhuoyun Ren">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
     
 
-    <img src="/images/%E8%B5%B5%E5%B0%9A%E5%8B%8B.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+    <img src="/images/%E4%BB%BB%E5%8D%93%E8%8A%B8.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
     
-      <span class="portrait-name">
-        赵尚勋（Shangxun Zhao）
-      </span>
-    
-
-    
-      <span class="portrait-description">
-        Research assistant
-      </span>
+      <span class="portrait-name"><strong>Name:</strong> Zhuoyun Ren</span>
     
 
     
-      <span class="portrait-affiliation">
-        清华大学
-      </span>
+      <span class="portrait-description"><strong>Position:</strong> PhD Student</span>
+    
+
+    
+      <span class="portrait-email"><strong>Email:</strong><br>renzy24@mails.tsinghua.edu.cn</span>
     
   </a>
 </div>
-  </section>
 
-  
-  
-  
+<div class="portrait-wrapper">
+  <a href="/members/sarah-johnson.html" class="portrait" data-style="" aria-label="Lin Xi">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
 
-  <section class="background" data-size="2" data-dark="true" style="--image: url('/images/background.jpg')">
-    <!--
-  <background>images/background.jpg</background>
-  <dark>true</dark>
-  <size>2</size>
--->
+    <img src="/images/%E8%A2%AD%E7%90%B3.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
 
-<p>欢迎有志之士加入我们!</p>
+    
+      <span class="portrait-name"><strong>Name:</strong> Lin Xi</span>
+    
+
+    
+      <span class="portrait-description"><strong>Position:</strong> PhD Student</span>
+    
+
+    
+      <span class="portrait-email"><strong>Email:</strong><br>xil25@mails.tsinghua.edu.cn</span>
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/%E4%BD%99%E9%94%A6%E7%9A%93.html" class="portrait" data-style="" aria-label="Jinhao Yu">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
+    <img src="/images/%E4%BD%99%E9%94%A6%E7%9A%93.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name"><strong>Name:</strong> Jinhao Yu</span>
+    
+
+    
+      <span class="portrait-description"><strong>Position:</strong> PhD Student</span>
+    
+
+    
+      <span class="portrait-email"><strong>Email:</strong><br>yujh26@mails.tsinghua.edu.cn</span>
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/%E5%90%B4%E6%99%A8%E6%98%95.html" class="portrait" data-style="" aria-label="Chenxin Wu">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
+    <img src="/images/%E5%90%B4%E6%99%A8%E6%98%95.png" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name"><strong>Name:</strong> Chenxin Wu</span>
+    
+
+    
+      <span class="portrait-description"><strong>Position:</strong> PhD Student</span>
+    
+
+    
+      <span class="portrait-email"><strong>Email:</strong><br>wucx25@mails.tsinghua.edu.cn</span>
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/%E7%8E%8B%E6%B4%8B.html" class="portrait" data-style="" aria-label="Wang Yang">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
+    <img src="/images/%E7%8E%8B%E6%B4%8B.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name"><strong>Name:</strong> Wang Yang</span>
+    
+
+    
+      <span class="portrait-description"><strong>Position:</strong> PhD Student</span>
+    
+
+    
+      <span class="portrait-email"><strong>Email:</strong><br>yangwang21@mails.tsinghua.edu.cn</span>
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/%E9%AB%98%E6%BA%90.html" class="portrait" data-style="" aria-label="Yuan Gao">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
+    <img src="/images/%E9%AB%98%E6%BA%90.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name"><strong>Name:</strong> Yuan Gao</span>
+    
+
+    
+      <span class="portrait-description"><strong>Position:</strong> PhD Student</span>
+    
+
+    
+      <span class="portrait-email"><strong>Email:</strong><br>y-gao24@mails.tsinghua.edu.cn</span>
+    
+  </a>
+</div>
+
+<div class="portrait-wrapper">
+  <a href="/members/%E9%BB%84%E6%A0%A9%E6%B5%B7.html" class="portrait" data-style="" aria-label="Xuhai Huang">
+    
+      <i class="icon fa-solid fa-graduation-cap"></i>
+    
+
+    <img src="/images/%E9%BB%84%E6%A0%A9%E6%B5%B7.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name"><strong>Name:</strong> Xuhai Huang</span>
+    
+
+    
+      <span class="portrait-description"><strong>Position:</strong> PhD Student</span>
+    
+
+    
+      <span class="portrait-email"><strong>Email:</strong><br>huangxh22@mails.tsinghua.edu.cn</span>
+    
+  </a>
+</div>
+
+<h2 id="undergraduate">Undergraduate</h2>
+
+<div class="portrait-wrapper">
+  <a href="/members/yang-jiayi.html" class="portrait" data-style="" aria-label="Jiayi Yang">
+    
+      <i class="icon fa-solid fa-user-graduate"></i>
+    
+
+    <img src="/images/jiayi-yang.jpg" class="portrait-image" alt="member portrait" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+
+    
+      <span class="portrait-name"><strong>Name:</strong> Jiayi Yang</span>
+    
+
+    
+      <span class="portrait-description"><strong>Position:</strong> Undergraduate Student</span>
+    
+
+    
+      <span class="portrait-email"><strong>Email:</strong><br>jiayi-ya23@mails.tsinghua.edu.cn</span>
+    
+  </a>
+</div>
   </section>
 
   
@@ -901,98 +797,26 @@
   <size></size>
 -->
 
-<div class="grid" data-style="square">
-  
+<h2 id="alumni">Alumni</h2>
 
+<div class="alumni-list">
+  
+    <span>Haoyang S. Y. Li</span>
+  
+    <span>Shangxun Zhao</span>
+  
+    <span>Yue Wang</span>
+  
 </div>
   </section>
 
 
     </main>
-    
-
-
-<footer class="background" style="--image: url('/images/background.jpg')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="mailto:contact@lonelu.com" data-tooltip="Email" data-style="bare" aria-label="Email">
-      <i class="icon fa-solid fa-envelope"></i>
-      
-    </a>
-  </div>
-
-
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/https://orcid.org/0000-0001-7097-1505" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
-      <i class="icon fa-brands fa-orcid"></i>
-      
-    </a>
-  </div>
-
-
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://scholar.google.com/citations?user=https://scholar.google.com/citations?user=yh9vjLQAAAAJ&hl=en" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
-      <i class="icon fa-brands fa-google"></i>
-      
-    </a>
-  </div>
-
-
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://github.com/lonelu" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
-      <i class="icon fa-brands fa-github"></i>
-      
-    </a>
-  </div>
-
-
-    
-  </div>
-
-  <div>
-    © 2025
-    lonelu
-      |   Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a>
-  </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+    <footer>
+  <a class="footer-logo" href="/" aria-label="Lu Lab home">
+    <img src="/images/lulab-logo-transparent.png" alt="Lu Lab logo">
+  </a>
+  <div>© 2026 Lu Lab</div>
 </footer>
 
   </body>

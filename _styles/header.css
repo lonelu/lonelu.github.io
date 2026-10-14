@@ -27,12 +27,21 @@ header a {
 }
 
 .logo {
+  display: block;
+  width: 148px;
   height: 40px;
 }
 
 .logo > * {
   width: unset;
   height: 100%;
+}
+
+.logo > img {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+  filter: drop-shadow(0 1px 2px rgba(255, 255, 255, 0.42));
 }
 
 .title-text {
