@@ -1,11 +1,13 @@
 ---
-name: 徐敬天（Jingtian Xu）
+name: Jingtian Xu
 image: images/徐敬天.jpg
+role: phd
 description: PhD Student
-affiliation: 清华大学
+email: xujt24@mails.tsinghua.edu.cn
+affiliation: Tsinghua University
 aliases:
 
 
 ---
 
-爱好打游戏篮球
+Enjoys video games and basketball.

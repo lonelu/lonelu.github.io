@@ -1,29 +1,40 @@
 ---
-title: Projects
+title: Resources
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Software and tools
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-screwdriver-wrench" %}Resources
 
-### 蛋白质从头设计
-### 蛋白质组学
-
-#### 以前有一些东西，现在还没有开始。。。
-
-{% include tags.html tags="publication, resource, website" %}
-
-{% include search-info.html %}
+Research software and computational frameworks developed by Lu Lab for protein design, structural modeling, and molecular analysis.
 
 {% include section.html %}
 
-## Featured
+## Software
 
-{% include list.html component="card" data="projects" filters="group: featured" %}
+<div class="resource-list">
+  {% for resource in site.data.projects %}
+    <article class="resource-card">
+      <div class="resource-card__visual{% if resource.image %} resource-card__visual--image{% endif %}" aria-hidden="true">
+        {% if resource.image %}
+          <img{% if resource.image_is_icon %} class="resource-card__image--icon"{% endif %} src="{{ resource.image | relative_url | uri_escape }}" alt="">
+        {% else %}
+          <span>{{ resource.mark }}</span>
+        {% endif %}
+      </div>
 
-{% include section.html %}
+      <div class="resource-card__content">
+        <h3>{{ resource.title }}</h3>
+        <p>{{ resource.description }}</p>
 
-## More
-
-{% include list.html component="card" data="projects" filters="group: " style="small" %}
+        {% if resource.link %}
+          <a class="resource-card__link" href="{{ resource.link | relative_url | uri_escape }}">
+            View resource
+            {% include icon.html icon="fa-solid fa-arrow-right" %}
+          </a>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>

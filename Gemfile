@@ -1,8 +1,11 @@
 source "https://rubygems.org"
 
+
+
 # jekyll
 gem "jekyll", "~> 4.3"
 gem "webrick", "~> 1.7"
+gem "logger", "~> 1.5.3"
 
 gem "html-proofer", "~> 5.0"
 

@@ -1,82 +1,68 @@
 ---
+title: Home
+footer-minimal: true
+nav:
+  order: 0
+  tooltip: Home
 ---
 
-# Lab Website Template
+<size>full</size>
 
-欢迎来到清华蛋白质设计中心
+<div class="home-hero">
+  <div class="home-hero__copy">
+    <div class="home-hero__wordmark">
+      <h1>Lu Lab</h1>
+      <p>Tsinghua Protein Design Center</p>
+    </div>
+  </div>
 
+  {% include protein-hero.html %}
+</div>
 
-{% include section.html %}
+{% include section.html size="wide" %}
 
-## Highlights
+<div id="research-directions" class="home-directions" markdown="1">
 
-{% capture text %}
+## Research Directions
 
-从头设计药物、金属、聚糖、蛋白等结合蛋白 长期关注于蛋白结合各类分子的特性，利用数据库搜索的方法，结合新的蛋白设计工具，进行结合蛋白的设计与应用开发。
+<p class="home-directions__intro">Three interconnected directions spanning molecular binding, catalysis, and proteomics.</p>
 
-{%
-  include button.html
-  link="research"
-  text="See our publications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+<div class="research-direction-grid">
+  <article class="research-direction-card">
+    <div class="research-direction-card__visual">
+      <span class="research-direction-card__number" aria-hidden="true">01</span>
+      <img src="{{ '/images/research-direction-1.png' | relative_url }}" alt="Overlay of a rucaparib-bound designed protein structure and its computational design model">
+    </div>
+    <div class="research-direction-card__content">
+      <p class="research-direction-card__label">Molecular binding</p>
+      <h3>De Novo Design of Molecular Binding Proteins</h3>
+      <p>We design proteins that selectively recognize drugs, metals, glycans, proteins, and other molecular targets. By integrating structural database mining with emerging protein design technologies, we develop functional binders for biomedical research, diagnostics, and therapeutic applications.</p>
+    </div>
+  </article>
 
-{% endcapture %}
+  <article class="research-direction-card">
+    <div class="research-direction-card__visual">
+      <span class="research-direction-card__number" aria-hidden="true">02</span>
+      <img src="{{ '/images/research-direction-2.png' | relative_url }}" alt="Designed alpha-helical enzyme structure with a catalytic center">
+    </div>
+    <div class="research-direction-card__content">
+      <p class="research-direction-card__label">Catalysis</p>
+      <h3>Computational Design of De Novo Enzymes</h3>
+      <p>We develop computational methods for designing enzymes that catalyze specific chemical reactions. Our research combines custom protein scaffold databases, deep learning, and computational chemistry to create artificial enzymes with practical scientific and biomedical value.</p>
+    </div>
+  </article>
 
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="research"
-  title="Our Research"
-  text=text
-%}
+  <article class="research-direction-card">
+    <div class="research-direction-card__visual">
+      <span class="research-direction-card__number" aria-hidden="true">03</span>
+      <img src="{{ '/images/research-direction-3.png' | relative_url }}" alt="O-glycoproteomics workflow from protein and glycan databases to fragment indexing">
+    </div>
+    <div class="research-direction-card__content">
+      <p class="research-direction-card__label">Proteomics</p>
+      <h3>Protein Design–Enabled Proteomics</h3>
+      <p>We develop new proteomics technologies and algorithms based on engineered proteins and enzymes, including limited-proteolysis proteomics and proximity-labeling proteomics. These approaches support drug screening and the discovery of disease mechanisms and therapeutic targets.</p>
+    </div>
+  </article>
+</div>
 
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="projects"
-  text="Browse our projects"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
-  flip=true
-  style="bare"
-  text=text
-%}
-
-{% capture text %}
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-{%
-  include button.html
-  link="team"
-  text="Meet our team"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
-
-{% endcapture %}
-
-{%
-  include feature.html
-  image="images/photo.jpg"
-  link="team"
-  title="Our Team"
-  text=text
-%}
+</div>

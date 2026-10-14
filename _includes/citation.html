@@ -12,18 +12,22 @@
   <div class="citation">
     {% if include.style == "rich" %}
       <a
-        {% if citation.link %}
-          href="{{ citation.link | relative_url | uri_escape }}"
+        {% if citation.figure or citation.link %}
+          href="{{ citation.figure | default: citation.link | uri_escape }}"
+          target="_blank"
+          rel="noopener noreferrer"
         {% endif %}
         class="citation-image"
-        aria-label="{{ citation.title | default: "citation link" | regex_strip }}"
+        aria-label="View Figure 1 from {{ citation.title | default: "publication" | strip_html | strip }}"
       >
         <img
           src="{{ citation.image | relative_url | uri_escape }}"
-          alt="{{ citation.title | default: "citation image" | regex_strip }}"
+          alt="Figure 1 from {{ citation.title | default: "publication" | strip_html | strip }}"
           loading="lazy"
+          decoding="async"
           {% include fallback.html %}
         >
+        <span class="citation-image-label">Figure 1</span>
       </a>
     {% endif %}
 

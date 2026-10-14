@@ -1,7 +1,8 @@
 # site properties and page defaults
-title: lonelu
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
+title: Lu Lab
+subtitle: Tsinghua Protein Design Center
+description: Computational and experimental approaches for designing functional proteins from scratch.
+logo: images/lulab-logo-transparent.png
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false

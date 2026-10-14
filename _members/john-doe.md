@@ -1,11 +1,13 @@
 ---
-name: 任卓芸（Zhuoyun Ren）
+name: Zhuoyun Ren
 image: images/任卓芸.png
+role: phd
 description: PhD Student
-affiliation: 清华大学
+email: renzy24@mails.tsinghua.edu.cn
+affiliation: Tsinghua University
 aliases:
 
 
 ---
 
-第一人格，热情；第二人格，孤独；第三人格，伤感；第四人格，神秘；第五人格，启动!
+Passionate, reflective, sensitive, mysterious, and always ready for the next challenge.

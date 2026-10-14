@@ -1,8 +1,10 @@
 ---
-name: 卢磊(Lei Lu)
+name: Lei Lu
 image: images/卢磊.jpg
-description: pi
-affiliation: 清华大学
+role: principal-investigator
+description: Principal Investigator (PI)
+email: lei_lu@tsinghua.edu.cn
+affiliation: Tsinghua University
 aliases:
 
 
