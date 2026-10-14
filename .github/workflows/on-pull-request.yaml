@@ -2,7 +2,7 @@ name: on-pull-request
 run-name: on pull request activity
 
 on:
-  pull_request_target:
+  pull_request:
     types:
       - opened
       - reopened
@@ -11,7 +11,12 @@ on:
 
 permissions:
   contents: write
+  pages: read
   pull-requests: write
+
+concurrency:
+  group: pull-request-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
 
 jobs:
   update-citations:
