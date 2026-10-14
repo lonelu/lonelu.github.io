@@ -1,10 +1,33 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1038/s41557-026-02125-6
+  title: Emergence of specific binding and catalysis from a designed generalist binding
+    protein
+  authors:
+  - Yuda Chen
+  - Sagar Bhattacharya
+  - Lena Bergmann
+  - Galen J. Correy
+  - Sophia K. Tan
+  - Kaipeng Hou
+  - Justin T. Biel
+  - Lei Lu
+  - Ian Bakanas
+  - Jason E. Gestwicki
+  - Alexander N. Volkov
+  - Ivan V. Korendovych
+  - Nicholas F. Polizzi
+  - James S. Fraser
+  - William F. DeGrado
+  publisher: Nature Chemistry
+  date: '2026-05-04'
+  link: https://doi.org/hb2f52
+  orcid: 0000-0001-7097-1505
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.1101/2025.06.24.661379
-  image: images/publications/2025-rhodamine-binders-fig1.jpg
-  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC12262669/figure/F1/
-  title: <i>De novo</i> designed bright, hyperstable rhodamine binders for fluorescence
-    microscopy
+  title: "<i>De novo</i>\n                  designed bright, hyperstable rhodamine\
+    \ binders for fluorescence microscopy"
   authors:
   - Yuda Chen
   - Klaus Yserentant
@@ -21,15 +44,16 @@
   - R. Dyche Mullins
   - William F. DeGrado
   - Bo Huang
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2025-06-25'
   link: https://doi.org/g9tc5q
   orcid: 0000-0001-7097-1505
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/publications/2025-rhodamine-binders-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC12262669/figure/F1/
 - id: doi:10.1126/science.adt7268
-  image: images/publications/2025-porphyrin-catalysts-fig1.jpg
-  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC12316402/figure/F1/
   title: De novo design of porphyrin-containing proteins as efficient and stereoselective
     catalysts
   authors:
@@ -49,11 +73,12 @@
   date: '2025-05-08'
   link: https://doi.org/g9mtd8
   orcid: 0000-0001-7097-1505
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/publications/2025-porphyrin-catalysts-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC12316402/figure/F1/
 - id: doi:10.1021/jacs.4c07920
-  image: images/publications/2024-sufex-pore-complex-fig1.jpg
-  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC12360496/figure/F1/
   title: SuFEx Chemistry Enables Covalent Assembly of a 280-kDa 18-Subunit Pore-Forming
     Complex
   authors:
@@ -72,11 +97,12 @@
   date: '2024-08-27'
   link: https://doi.org/g8scdj
   orcid: 0000-0001-7097-1505
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/publications/2024-sufex-pore-complex-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC12360496/figure/F1/
 - id: doi:10.1126/science.adl5364
-  image: images/publications/2024-drug-binding-proteins-fig1.jpg
-  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC11290694/figure/F1/
   title: De novo design of drug-binding proteins with predictable binding energy and
     specificity
   authors:
@@ -98,11 +124,13 @@
   date: '2024-04-05'
   link: https://doi.org/g8n6h8
   orcid: 0000-0001-7097-1505
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  description: Drug-binding protein design.
+  image: images/publications/2024-drug-binding-proteins-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC11290694/figure/F1/
 - id: doi:10.1021/jasms.0c00462
-  image: images/publications/2021-mesh-fragmentation-fig1.jpg
-  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC8783543/figure/F1/
   title: Mesh Fragmentation Improves Dissociation Efficiency in Top-down Proteomics
   authors:
   - Lei Lu
@@ -113,11 +141,12 @@
   date: '2021-03-23'
   link: https://doi.org/gkthmc
   orcid: 0000-0001-7097-1505
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/publications/2021-mesh-fragmentation-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC8783543/figure/F1/
 - id: doi:10.1021/acs.jproteome.0c00838
-  image: images/publications/2021-binary-classifier-fig1.jpg
-  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC8377504/figure/F1/
   title: Binary Classifier for Computing Posterior Error Probabilities in MetaMorpheus
   authors:
   - Michael R. Shortreed
@@ -132,11 +161,12 @@
   date: '2021-03-08'
   link: https://doi.org/g8scdk
   orcid: 0000-0001-7097-1505
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/publications/2021-binary-classifier-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC8377504/figure/F1/
 - id: doi:10.1021/acs.jproteome.0c00407
-  image: images/publications/2020-spritz-fig1.jpg
-  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC8024408/figure/F1/
   title: 'Spritz: A Proteogenomic Database Engine'
   authors:
   - Anthony J. Cesnik
@@ -151,11 +181,12 @@
   date: '2020-09-23'
   link: https://doi.org/gj3j82
   orcid: 0000-0001-7097-1505
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/publications/2020-spritz-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC8024408/figure/F1/
 - id: doi:10.1038/s41592-020-00985-5
-  image: images/publications/2020-opair-search-fig1.jpg
-  figure: https://www.nature.com/articles/s41592-020-00985-5/figures/1
   title: O-Pair Search with MetaMorpheus for O-glycopeptide characterization
   authors:
   - Lei Lu
@@ -167,11 +198,12 @@
   date: '2020-10-26'
   link: https://doi.org/ghhpr6
   orcid: 0000-0001-7097-1505
-  plugin: orcid.py
-  file: orcid.yaml
-- id: doi:10.1101/2020.05.18.102327
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
   image: images/publications/2020-opair-search-fig1.jpg
-  figure: https://www.biorxiv.org/content/10.1101/2020.05.18.102327v1.full#F1
+  figure: https://www.nature.com/articles/s41592-020-00985-5/figures/1
+- id: doi:10.1101/2020.05.18.102327
   title: O-Pair Search with MetaMorpheus for O-glycopeptide Characterization
   authors:
   - Lei Lu
@@ -179,15 +211,16 @@
   - Michael R. Shortreed
   - Carolyn R. Bertozzi
   - Lloyd M. Smith
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2020-05-20'
   link: https://doi.org/g8scdm
   orcid: 0000-0001-7097-1505
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/publications/2020-opair-search-fig1.jpg
+  figure: https://www.biorxiv.org/content/10.1101/2020.05.18.102327v1.full#F1
 - id: doi:10.1021/acs.analchem.8b04580
-  image: images/publications/2019-hotmaq-fig1.jpg
-  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC6379083/figure/F1/
   title: 'HOTMAQ: A Multiplexed Absolute Quantification Method for Targeted Proteomics'
   authors:
   - Xiaofang Zhong
@@ -204,11 +237,12 @@
   date: '2019-01-04'
   link: https://doi.org/gjb67s
   orcid: 0000-0001-7097-1505
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/publications/2019-hotmaq-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC6379083/figure/F1/
 - id: doi:10.1021/acs.jproteome.8b00141
-  image: images/publications/2018-metamorpheus-xl-fig1.jpg
-  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC6501566/figure/F1/
   title: Identification of MS-Cleavable and Noncleavable Chemically Cross-Linked Peptides
     with MetaMorpheus
   authors:
@@ -223,5 +257,8 @@
   date: '2018-05-25'
   link: https://doi.org/gdw4hn
   orcid: 0000-0001-7097-1505
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/publications/2018-metamorpheus-xl-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC6501566/figure/F1/
