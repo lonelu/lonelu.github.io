@@ -23,8 +23,11 @@
   date: '2026-05-04'
   link: https://doi.org/hb2f52
   orcid: 0000-0001-7097-1505
-  plugin: orcid.py
-  file: orcid.yaml
+  plugin: sources.py
+  file: sources.yaml
+  type: paper
+  image: images/publications/2026-10-1038-s41557-026-02125-6-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC13245809/figure/F1/
 - id: doi:10.1101/2025.06.24.661379
   title: "<i>De novo</i>\n                  designed bright, hyperstable rhodamine\
     \ binders for fluorescence microscopy"

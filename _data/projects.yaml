@@ -6,8 +6,9 @@
 
 - title: Bondflow
   mark: BF
+  image: images/resources/bondflow.png
   subtitle: Protein Design Workflow
-  description: Computational tools for the design and evaluation of cyclic peptides and polypeptides.
+  description: Bondflow is a bond-aware generative model for designing constrained protein structures through topology-guided flow.
 
 - title: O-Pair Search
   mark: OP

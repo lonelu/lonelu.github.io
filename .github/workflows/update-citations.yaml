@@ -67,6 +67,7 @@ jobs:
         with:
           files: |
             _data/citations.yaml
+            images/publications/**
 
       - name: Commit updated citations to branch
         if: |

@@ -1,3 +1,8 @@
+- id: doi:10.1038/s41557-026-02125-6
+  type: paper
+  image: images/publications/2026-10-1038-s41557-026-02125-6-fig1.jpg
+  figure: https://pmc.ncbi.nlm.nih.gov/articles/PMC13245809/figure/F1/
+
 - id: doi:10.1101/2025.06.24.661379
   type: paper
   image: images/publications/2025-rhodamine-binders-fig1.jpg

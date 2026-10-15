@@ -19,7 +19,7 @@ nav:
 
 ## Postdoc
 
-{% include list.html data="members" component="portrait" filter="role == 'postdoc'" %}
+{% include list.html data="members" component="portrait" filter="role == 'postdoc'" sort="display_order" %}
 
 ## PhD
 

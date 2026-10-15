@@ -7,6 +7,7 @@ from importlib import import_module
 from pathlib import Path
 from dotenv import load_dotenv
 from util import *
+from publication_images import add_publication_images
 
 
 # load environment variables
@@ -169,6 +170,20 @@ for index, source in enumerate(sources):
 
     # add new citation to list
     citations.append(citation)
+
+
+log()
+
+log("Adding publication images")
+
+
+def image_warning(message):
+    log(message, indent=1, level="WARNING")
+    warnings.append(message)
+
+
+downloaded_images = add_publication_images(citations, warn=image_warning)
+log(f"Downloaded {downloaded_images} new image(s)", indent=1)
 
 
 log()
