@@ -20,14 +20,17 @@
         class="citation-image"
         aria-label="View Figure 1 from {{ citation.title | default: "publication" | strip_html | strip }}"
       >
+        {% assign citation_image = citation.image | default: "images/fallback.svg" %}
         <img
-          src="{{ citation.image | relative_url | uri_escape }}"
+          src="{{ citation_image | relative_url | uri_escape }}"
           alt="Figure 1 from {{ citation.title | default: "publication" | strip_html | strip }}"
           loading="lazy"
           decoding="async"
           {% include fallback.html %}
         >
-        <span class="citation-image-label">Figure 1</span>
+        {% if citation.image %}
+          <span class="citation-image-label">Figure 1</span>
+        {% endif %}
       </a>
     {% endif %}
 
